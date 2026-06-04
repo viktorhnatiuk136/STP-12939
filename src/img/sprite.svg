@@ -14,7 +14,7 @@
         <symbol id="icon-btn-close" viewBox="0 0 32 32">
             <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M30.586 4.512l-11.488 11.488 11.488 11.488-3.098 3.098-11.488-11.488-11.488 11.488-3.098-3.098 11.488-11.488-11.488-11.488 3.098-3.098 11.488 11.488 11.488-11.488 3.098 3.098z"></path>
         </symbol>
-        <symbol id="icon-Menu-burger" viewBox="0 0 46 32">
+        <symbol id="icon-burger-menu" viewBox="0 0 46 32">
             <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M1.6 1.6h42.24M1.6 15.68h42.24M1.6 29.76h42.24"></path>
         </symbol>
         <symbol id="icon-feature1" viewBox="0 0 32 32">
