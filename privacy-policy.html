@@ -4,37 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 2</title>
-    <link rel="stylesheet" crossorigin href="/STP-12939/assets/styles-DhKi-voB.css">
+    <title>Quell Zen</title>
+    <link rel="stylesheet" crossorigin href="/STP-12939/assets/styles-BUlbtW9S.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
     <div class="wrapper">
-      <p>HEADER</p>
+      <a href="/" class="logo"
+        ><img class="logo-svg" src="../img/logo.svg" alt="logo"
+      /></a>
+
+      <button type="button" class="burger-btn" data-action="open">
+        <svg class="icon-burgermenu">
+          <use href="../img/sprite.svg#icon-Menu-burger"></use>
+        </svg>
+      </button>
+
       <nav class="nav">
-        <a></a>
         <ul class="nav-list">
-          <li class="nav-item"></li>
-          <li class="nav-item"></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">How to Play</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
         </ul>
       </nav>
-      <!-- <div class="header__burger-wrapper">
-        <button type="button" class="burger-btn" data-action="open">
-          Open menu
+
+      <nav class="mobile-nav-menu" data-visible="close">
+        <button type="button" class="btn-close" data-action="close">
+          <svg class="icon-close">
+            <use href="../img/sprite.svg#icon-btn-close"></use>
+          </svg>
         </button>
-        <div class="burger-menu" data-visible="close">
-          <ul>
-            <li><a href="#">link-1</a></li>
-            <li><a href="#">link-2</a></li>
-            <li><a href="#">link-3</a></li>
-            <li><a href="#">link-4</a></li>
-          </ul>
-          <button type="button" class="btn-close" data-action="close">
-            close
-          </button>
-        </div>
-      </div> -->
+
+        <ul class="mobile-nav">
+          <li class="mobile-nav-item">
+            <a class="mobile-nav-link" href="#">Home</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a class="mobile-nav-link" href="#">About</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a class="mobile-nav-link" href="#">How to Play</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a class="mobile-nav-link" href="#">Features</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a class="mobile-nav-link" href="#">FAQ</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </div>
 </header>
