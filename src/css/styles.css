@@ -12,7 +12,8 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./back-link.css');
+/* @import url('./back-link.css'); */
+@import url('./privacy-policy.css');
 @import url('./hero.css');
 @import url('./about.css');
 @import url('./how-to-play.css');
