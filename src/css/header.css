@@ -39,10 +39,13 @@
   display: block;
   letter-spacing: 0.02em;
   transition: 200ms ease-in;
-
   font-weight: 400;
   font-size: 16px;
   color: #000;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #9500c2;
 }
 
 .burger-btn{
