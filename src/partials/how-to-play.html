@@ -1,1 +1,68 @@
-<p>how to play</p>
+<section class="play">
+  <div class="play-container container">
+    <h2 class="play-title">How to Play</h2>
+    <p class="play-quote">Easy to learn, but there's real depth here</p>
+    <div class="play-box">
+      <picture>
+        <source
+          media="(min-width: 1440px)"
+          srcset="./img/lotos.jpg 1x, ./img/lotos@2x.jpg 2x"
+        />
+        <source
+          media="(max-width: 1439px)"
+          srcset="./img/mob-lotos.jpg 1x, ./img/mob-lotos@2x.jpg 2x"
+        />
+        <img class="play-image" src="./img/lotos.jpg" alt="lotos image" />
+      </picture>
+      <div id="play-swiper" class="swiper" data-box="swiper">
+        <ul class="play-steps swiper-wrapper" data-wrap="swiper-wrap">
+          <li class="play-items swiper-slide" data-slide="swiper-slide">
+            <svg class="play-items-icon" width="42" height="42">
+              <use href="{=$icon-step1}"></use>
+            </svg>
+            <h3 class="play-items-title">Guide the Droplet</h3>
+            <p class="play-items-text">
+              Move through levels using smooth directional controls.
+            </p>
+          </li>
+          <li class="play-items swiper-slide" data-slide="swiper-slide">
+            <svg class="play-items-icon" width="42" height="42">
+              <use href="{=$icon-step2}"></use>
+            </svg>
+            <h3 class="play-items-title">Solve Environmental Puzzles</h3>
+            <p class="play-items-text">
+              Maps obstacles and interactive elements carefully.
+            </p>
+          </li>
+          <li class="play-items swiper-slide" data-slide="swiper-slide">
+            <svg class="play-items-icon" width="42" height="42">
+              <use href="{=$icon-step3}"></use>
+            </svg>
+            <h3 class="play-items-title">Discover New Challenges</h3>
+            <p class="play-items-text">
+              Each stage introduces fresh mechanics gradually.
+            </p>
+          </li>
+          <li class="play-items swiper-slide" data-slide="swiper-slide">
+            <svg class="play-items-icon" width="42" height="42">
+              <use href="{=$icon-step4}"></use>
+            </svg>
+            <h3 class="play-items-title">Complete Calm Puzzle Paths</h3>
+            <p class="play-items-text">
+              Find efficient routes through minimalist environments.
+            </p>
+          </li>
+          <li class="play-items swiper-slide" data-slide="swiper-slide">
+            <svg class="play-items-icon" width="42" height="42">
+              <use href="{=$icon-step5}"></use>
+            </svg>
+            <h3 class="play-items-title">Progress Through Zen Worlds</h3>
+            <p class="play-items-text">
+              Unlock new atmospheric visual themes over time.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
