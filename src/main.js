@@ -1,4 +1,8 @@
 import './js/burgerMenu';
+
+import { initFeaturesSwiper } from './js/features-swiper.js';
+
+initFeaturesSwiper();
 import './js/playSteps';
 
 const breakpoint = window.matchMedia('(min-width: 1440px)');
