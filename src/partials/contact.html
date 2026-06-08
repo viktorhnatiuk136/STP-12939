@@ -1,3 +1,26 @@
-<section class="contacts">
-  <div class="container"></div>
+<section class="contact" id="contact">
+  <div class="contact-back container">
+    <div class="contact-contentbox">
+      <h2 class="contact-title">Contact</h2>
+      <p class="contact-text">Ready to enter a calmer puzzle experience?</p>
+      <a class="contact-link">
+        <svg class="contact-link-svg" \>
+          <use href="{=$icon-mail}"></use>
+        </svg>
+        <span class="contact-link-text">info@corequest.pro</span>
+      </a>
+    </div>
+
+    <picture class="contact-img">
+      <source
+        media="(min-width: 1440px)"
+        srcset="./img/flower.png 1x, ./img/flower@2x.png 2x"
+      />
+      <source
+        media="(max-width: 1439px)"
+        srcset="./img/mob-flower.png, ./img/mob-flower@2x.png 2x"
+      />
+      <img class="contact-image" src="./img/flower.png" alt="picture flower" />
+    </picture>
+  </div>
 </section>

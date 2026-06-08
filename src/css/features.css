@@ -61,6 +61,7 @@
     color: #000;
     margin-bottom: 48px;
   }
+
   .features-list {
     display: grid;
     grid-template-columns: repeat(6, 1fr);

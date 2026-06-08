@@ -1,0 +1,129 @@
+.contact {
+    background: linear-gradient(180deg, #ecdaf5 28.86%, #fcfaf9 76.66%);
+}
+
+.contact .container {
+    padding: 40px 16px 24px;  
+}
+
+.contact-back {
+position: relative;
+overflow: hidden;
+}
+
+.contact-back::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+
+    background-image: url('../img/mob-bg-footer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: 0.2;
+    z-index: 0;
+}
+@media (min-resolution: 192dpi) {
+    .contact-back::before {
+        background-image: url('../img/mob-bg-footer@2x.jpg');
+    }
+}
+
+.contact-contentbox {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 58px;
+}
+
+.contact-title {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #7316a8;
+    margin-bottom: 16px;
+}
+
+.contact-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 144%;
+    text-align: center;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.contact-link-svg {
+    width: 24px;
+    height: 24px;
+    fill: #1f34d3;
+}
+
+.contact-link-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #1f34d3;
+}
+
+.contact-image {
+    position: relative;
+}
+
+@media screen and (min-width: 1440px) {
+    .contact .container {
+        padding-top: 60px;
+        padding-bottom: 9px;
+    }
+
+    .contact-back::before {
+        background-image: url('../img/bg-footer.jpg');
+    }
+
+    .contact-contentbox {
+        margin-bottom: 63px;
+    }
+
+    .contact-title {
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+
+    .contact-text {
+        font-size: 20px;
+        line-height: 130%;
+        margin-bottom: 32px;
+    }
+
+    .contact-link-svg {
+        width: 32px;
+        height: 32px;
+    }
+
+    .contact-link-text {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .contact-image {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1440px) and
+(min-resolution: 192dpi) {
+    .contact-back::before {
+        background-image: url('../img/bg-footer@2x.jpg');
+        }
+}
