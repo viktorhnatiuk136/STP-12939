@@ -18,7 +18,7 @@
     <script type="module" crossorigin src="/STP-12939/index.js"></script>
     <link rel="modulepreload" crossorigin href="/STP-12939/assets/vendor-fD3U4rjd.js">
     <link rel="stylesheet" crossorigin href="/STP-12939/assets/vendor-CtIR5pHR.css">
-    <link rel="stylesheet" crossorigin href="/STP-12939/assets/styles-i8fMQHRQ.css">
+    <link rel="stylesheet" crossorigin href="/STP-12939/assets/styles-CC0p6y3F.css">
   </head>
   <body>
     <header class="header">
@@ -162,7 +162,7 @@
   </div>
 </section>
 
-      <section class="play">
+      <section class="play" id="play">
   <div class="play-container container">
     <h2 class="play-title">How to Play</h2>
     <p class="play-quote">Easy to learn, but there's real depth here</p>
@@ -178,18 +178,20 @@
         />
         <img class="play-image" src="/STP-12939/assets/lotos-CkMgBQ4Z.jpg" alt="lotos image" />
       </picture>
-      <div id="play-swiper" class="swiper" data-box="swiper">
-        <ul class="play-steps swiper-wrapper" data-wrap="swiper-wrap">
-          <li class="play-items swiper-slide" data-slide="swiper-slide">
+      <div data-box="swiper">
+        <ul class="play-steps" data-wrap="swiper-wrap">
+          <li class="play-items" data-slide="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
               <use href="/STP-12939/assets/sprite-CaBEI8u1.svg#icon-step1"></use>
             </svg>
-            <h3 class="play-items-title">Guide the Droplet</h3>
+            <h3 class="play-items-title">
+              <span>Guide</span> <span>the Droplet</span>
+            </h3>
             <p class="play-items-text">
               Move through levels using smooth directional controls.
             </p>
           </li>
-          <li class="play-items swiper-slide" data-slide="swiper-slide">
+          <li class="play-items" data-slide="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
               <use href="/STP-12939/assets/sprite-CaBEI8u1.svg#icon-step2"></use>
             </svg>
@@ -198,7 +200,7 @@
               Maps obstacles and interactive elements carefully.
             </p>
           </li>
-          <li class="play-items swiper-slide" data-slide="swiper-slide">
+          <li class="play-items" data-slide="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
               <use href="/STP-12939/assets/sprite-CaBEI8u1.svg#icon-step3"></use>
             </svg>
@@ -207,7 +209,7 @@
               Each stage introduces fresh mechanics gradually.
             </p>
           </li>
-          <li class="play-items swiper-slide" data-slide="swiper-slide">
+          <li class="play-items" data-slide="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
               <use href="/STP-12939/assets/sprite-CaBEI8u1.svg#icon-step4"></use>
             </svg>
@@ -216,7 +218,7 @@
               Find efficient routes through minimalist environments.
             </p>
           </li>
-          <li class="play-items swiper-slide" data-slide="swiper-slide">
+          <li class="play-items" data-slide="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
               <use href="/STP-12939/assets/sprite-CaBEI8u1.svg#icon-step5"></use>
             </svg>
@@ -232,52 +234,54 @@
 </section>
 
       <section class="features" id="features">
-  <div class="container">
+  <div class="features-container container">
     <h2 class="features-title">Features</h2>
-    <h3 class="features-subtitle">Built to help you zone out and relax</h3>
-    <div class="swiper features-swiper">
-      <ul class="features-list swiper-wrapper">
-        <li class="features-card swiper-slide">
+    <p class="features-quote">Built to help you zone out and relax</p>
+    <div class="features-swiper" data-box="swiper">
+      <ul class="features-list" data-wrap="swiper-wrap">
+        <li class="features-card" data-slide="swiper-slide">
           <svg class="features-card-icon" width="42px" height="42px">
             <use href="/STP-12939/assets/sprite-CaBEI8u1.svg#icon-feature1"></use>
           </svg>
-          <p class="features-card-title">Minimalist Visual Design</p>
+          <h3 class="features-card-title" id="features-card-title">
+            Minimalist Visual Design
+          </h3>
           <p class="features-card-text">
             Clean visuals help you focus without getting overwhelmed.
           </p>
         </li>
-        <li class="features-card swiper-slide">
+        <li class="features-card" data-slide="swiper-slide">
           <svg class="features-card-icon" width="42px" height="42px">
             <use href="/STP-12939/assets/sprite-CaBEI8u1.svg#icon-feature2"></use>
           </svg>
-          <p class="features-card-title">Relaxing Puzzle Progression</p>
+          <h3 class="features-card-title">Relaxing Puzzle Progression</h3>
           <p class="features-card-text">
             The puzzles make you think, but they're never stressful.
           </p>
         </li>
-        <li class="features-card swiper-slide">
+        <li class="features-card" data-slide="swiper-slide">
           <svg class="features-card-icon" width="42px" height="42px">
             <use href="/STP-12939/assets/sprite-CaBEI8u1.svg#icon-feature3"></use>
           </svg>
-          <p class="features-card-title">Atmospheric Audio Experience</p>
+          <h3 class="features-card-title">Atmospheric Audio Experience</h3>
           <p class="features-card-text">
             Soft ambient sound enhances immersion and calmness.
           </p>
         </li>
-        <li class="features-card swiper-slide">
+        <li class="features-card" data-slide="swiper-slide">
           <svg class="features-card-icon" width="42px" height="42px">
             <use href="/STP-12939/assets/sprite-CaBEI8u1.svg#icon-feature4"></use>
           </svg>
-          <p class="features-card-title">Smooth Mobile Interaction</p>
+          <h3 class="features-card-title">Smooth Mobile Interaction</h3>
           <p class="features-card-text">
             Gameplay feels fluid and responsive on touch devices.
           </p>
         </li>
-        <li class="features-card swiper-slide">
+        <li class="features-card" data-slide="swiper-slide">
           <svg class="features-card-icon" width="42px" height="42px">
             <use href="/STP-12939/assets/sprite-CaBEI8u1.svg#icon-feature5"></use>
           </svg>
-          <p class="features-card-title">Meditative Gameplay Flow</p>
+          <h3 class="features-card-title">Meditative Gameplay Flow</h3>
           <p class="features-card-text">
             It's weird how focused yet relaxed you feel while playing.
           </p>
@@ -287,7 +291,9 @@
   </div>
 </section>
 
-      <p>faq</p>
+      <section class="faq">
+  <div class="container"></div>
+</section>
 
       <section class="contact" id="contact">
   <div class="contact-back container">
