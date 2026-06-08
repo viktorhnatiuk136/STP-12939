@@ -1,0 +1,11 @@
+.faq .container {
+    outline: 1px solid green;
+}
+
+.faq-btn {
+    display: block;
+}
+
+.faq-icon {
+    fill: black;
+}
