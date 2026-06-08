@@ -1,4 +1,4 @@
-<section class="play">
+<section class="play" id="play">
   <div class="play-container container">
     <h2 class="play-title">How to Play</h2>
     <p class="play-quote">Easy to learn, but there's real depth here</p>
@@ -14,18 +14,20 @@
         />
         <img class="play-image" src="./img/lotos.jpg" alt="lotos image" />
       </picture>
-      <div id="play-swiper" class="swiper" data-box="swiper">
-        <ul class="play-steps swiper-wrapper" data-wrap="swiper-wrap">
-          <li class="play-items swiper-slide" data-slide="swiper-slide">
+      <div data-box="swiper">
+        <ul class="play-steps" data-wrap="swiper-wrap">
+          <li class="play-items" data-slide="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
               <use href="{=$icon-step1}"></use>
             </svg>
-            <h3 class="play-items-title">Guide the Droplet</h3>
+            <h3 class="play-items-title">
+              <span>Guide</span> <span>the Droplet</span>
+            </h3>
             <p class="play-items-text">
               Move through levels using smooth directional controls.
             </p>
           </li>
-          <li class="play-items swiper-slide" data-slide="swiper-slide">
+          <li class="play-items" data-slide="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
               <use href="{=$icon-step2}"></use>
             </svg>
@@ -34,7 +36,7 @@
               Maps obstacles and interactive elements carefully.
             </p>
           </li>
-          <li class="play-items swiper-slide" data-slide="swiper-slide">
+          <li class="play-items" data-slide="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
               <use href="{=$icon-step3}"></use>
             </svg>
@@ -43,7 +45,7 @@
               Each stage introduces fresh mechanics gradually.
             </p>
           </li>
-          <li class="play-items swiper-slide" data-slide="swiper-slide">
+          <li class="play-items" data-slide="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
               <use href="{=$icon-step4}"></use>
             </svg>
@@ -52,7 +54,7 @@
               Find efficient routes through minimalist environments.
             </p>
           </li>
-          <li class="play-items swiper-slide" data-slide="swiper-slide">
+          <li class="play-items" data-slide="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
               <use href="{=$icon-step5}"></use>
             </svg>
