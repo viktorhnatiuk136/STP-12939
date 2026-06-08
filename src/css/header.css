@@ -65,7 +65,7 @@
 }
 
 .mobile-nav-menu {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   width: 240px;
@@ -158,6 +158,9 @@
   }
 
   .burger-btn {
+    display: none;
+  }
+  .mobile-nav-menu {
     display: none;
   }
 }
