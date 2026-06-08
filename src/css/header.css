@@ -74,6 +74,7 @@
   background: linear-gradient(180deg, #fcfaf9 0%, #ecdaf5 69.71%);
 
   transform: translateX(100%);
+  opacity: 0;
   transition: transform 300ms ease;
 
   z-index: 1000;
@@ -124,6 +125,7 @@
 
 .mobile-nav-menu[data-visible='open'] {
   transform: translateX(0);
+  opacity: 1;
 }
 
 /* [data-visible='open'] {
