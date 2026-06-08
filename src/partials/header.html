@@ -1,54 +1,56 @@
 <header class="header">
-  <div class="container">
-    <div class="wrapper">
-      <a href="./index.html" class="logo"
-        ><img class="logo-svg" src="./img/logo.svg" alt="logo"
-      /></a>
+  <div class="header-container container">
+    <a href="./index.html" class="logo"
+      ><img class="logo-svg" src="./img/logo.svg" alt="logo"
+    /></a>
 
-      <button type="button" class="burger-btn" data-action="open">
-        <svg class="icon-burgermenu">
-          <use href="{=$icon-burger-btn}"></use>
+    <button type="button" class="burger-btn" data-action="open">
+      <svg class="icon-burgermenu">
+        <use href="{=$icon-burger-btn}"></use>
+      </svg>
+    </button>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="#top">Home</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#play">How to Play</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <nav class="mobile-nav-menu" data-visible="close">
+      <button type="button" class="btn-close" data-action="close">
+        <svg class="icon-close">
+          <use href="{=$icon-close}"></use>
         </svg>
       </button>
 
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">How to Play</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
-        </ul>
-      </nav>
-
-      <nav class="mobile-nav-menu" data-visible="close">
-        <button type="button" class="btn-close" data-action="close">
-          <svg class="icon-close">
-            <use href="{=$icon-close}"></use>
-          </svg>
-        </button>
-
-        <ul class="mobile-nav">
-          <li class="mobile-nav-item">
-            <a class="mobile-nav-link" href="#">Home</a>
-          </li>
-          <li class="mobile-nav-item">
-            <a class="mobile-nav-link" href="#">About</a>
-          </li>
-          <li class="mobile-nav-item">
-            <a class="mobile-nav-link" href="#">How to Play</a>
-          </li>
-          <li class="mobile-nav-item">
-            <a class="mobile-nav-link" href="#">Features</a>
-          </li>
-          <li class="mobile-nav-item">
-            <a class="mobile-nav-link" href="#">FAQ</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+      <ul class="mobile-nav">
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#top">Home</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#about">About</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#play">How to Play</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#features">Features</a>
+        </li>
+        <li class="mobile-nav-item">
+          <a class="mobile-nav-link" href="#faq">FAQ</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>
 <div class="overlay" data-overvisible="close"></div>

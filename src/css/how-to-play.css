@@ -4,7 +4,7 @@
   margin-right: 0 !important;
   width: 300px;
 }
-.play-container {
+.play {
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -63,7 +63,7 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .play-container {
+  .play {
     padding-top: 60px;
     padding-bottom: 60px;
   }

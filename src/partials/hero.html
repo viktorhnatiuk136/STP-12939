@@ -1,51 +1,53 @@
-<section class="hero container" id="Hero">
-  <picture>
-    <source
-      media="(min-width: 1440px)"
-      srcset="./img/hero-image.jpg 1x, ./img/hero-image@2x.jpg 2x"
-    />
-    <source
-      media="(max-width: 1439px)"
-      srcset="./img/mob-hero-image.jpg 1x, ./img/mob-hero-image@2x.jpg 2x"
-    />
-    <img
-      class="hero-image"
-      src="./img/hero-image.jpg"
-      alt="picture for relax"
-    />
-  </picture>
-  <div class="hero-content">
-    <div class="hero-content-box">
-      <h1
-        class="hero-content-title"
-        data-text="Relax Your Mind Through Puzzle Flow"
+<section class="hero">
+  <div class="hero-container container">
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="./img/hero-image.jpg 1x, ./img/hero-image@2x.jpg 2x"
+      />
+      <source
+        media="(max-width: 1439px)"
+        srcset="./img/mob-hero-image.jpg 1x, ./img/mob-hero-image@2x.jpg 2x"
+      />
+      <img
+        class="hero-image"
+        src="./img/hero-image.jpg"
+        alt="picture for relax"
+      />
+    </picture>
+    <div class="hero-content">
+      <div class="hero-content-box">
+        <h1
+          class="hero-content-title"
+          data-text="Relax Your Mind Through Puzzle Flow"
+        >
+          Relax Your Mind Through Puzzle Flow
+        </h1>
+        <p class="hero-content-text">
+          Puzzle games that won't stress you out - perfect for when you need to
+          focus but stay chill.
+        </p>
+        <blockquote class="hero-content-quote">
+          Peace begins with every movement
+        </blockquote>
+      </div>
+      <a
+        class="hero-content-link btn"
+        href="https://play.google.com/store/apps/details?id=com.fallentreegames.google.quellzen&hl=en&gl=us"
+        target="_blank"
       >
-        Relax Your Mind Through Puzzle Flow
-      </h1>
-      <p class="hero-content-text">
-        Puzzle games that won't stress you out - perfect for when you need to
-        focus but stay chill.
-      </p>
-      <blockquote class="hero-content-quote">
-        Peace begins with every movement
-      </blockquote>
+        <svg class="btn-icon" width="35" height="40">
+          <use href="{=$icon-image}"></use>
+        </svg>
+        <span class="btn-text">
+          <svg class="btn-text-getiton" width="124" height="16">
+            <use href="{=$icon-text-up}"></use>
+          </svg>
+          <svg class="btn-text-google" width="124" height="25">
+            <use href="{=$icon-text-down}"></use>
+          </svg>
+        </span>
+      </a>
     </div>
-    <a
-      class="hero-content-link btn"
-      href="https://play.google.com/store/apps/details?id=com.fallentreegames.google.quellzen&hl=en&gl=us"
-      target="_blank"
-    >
-      <svg class="btn-icon" width="35" height="40">
-        <use href="{=$icon-image}"></use>
-      </svg>
-      <span class="btn-text">
-        <svg class="btn-text-getiton" width="124" height="16">
-          <use href="{=$icon-text-up}"></use>
-        </svg>
-        <svg class="btn-text-google" width="124" height="25">
-          <use href="{=$icon-text-down}"></use>
-        </svg>
-      </span>
-    </a>
   </div>
 </section>

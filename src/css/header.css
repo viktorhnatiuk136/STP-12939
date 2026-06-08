@@ -4,11 +4,8 @@
   height: auto;
 }
 
-.container {
+.header-container {
   position: relative;
-}
-
-.wrapper {
   display: flex;
   align-items: center;
 }
@@ -140,6 +137,13 @@
 } */
 
 @media screen and (min-width: 1440px) {
+  .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
   .logo {
     width: 142px;
     height: 60px;
@@ -156,6 +160,9 @@
   }
 
   .burger-btn {
+    display: none;
+  }
+  .mobile-nav-menu {
     display: none;
   }
 }
