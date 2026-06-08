@@ -81,9 +81,9 @@
       }
 
     .features-card.swiper-slide {
-        width: calc((100% - 48px) / 3)!important;
+        width: calc((100% - 48px) / 3) !important;
         height: 264px;
-        padding: 40px 41px;
+        padding: 40px 40px;
         }
 
     .features-card-title {

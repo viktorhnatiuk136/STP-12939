@@ -8,6 +8,8 @@ function checkResolution() {
   const wrapper = document.querySelector('[data-wrap="swiper-wrap"]');
   const slides = document.querySelectorAll('[data-slide="swiper-slide"]');
 
+  function destroySwiper() {}
+
   if (width >= 1440) {
     swiperTarget?.classList.remove('swiper');
     wrapper?.classList.remove('swiper-wrapper');
