@@ -18,65 +18,73 @@
     <script type="module" crossorigin src="/STP-12939/index.js"></script>
     <link rel="modulepreload" crossorigin href="/STP-12939/assets/vendor-LoH-4N-g.js">
     <link rel="stylesheet" crossorigin href="/STP-12939/assets/vendor-BWZb_DGy.css">
-    <link rel="stylesheet" crossorigin href="/STP-12939/assets/styles-CZYSO76o.css">
+    <link rel="stylesheet" crossorigin href="/STP-12939/assets/styles-CFPw2omj.css">
   </head>
   <body>
-    <header class="header">
-  <div class="header-container container">
-    <a href="./index.html" class="logo"
-      ><img class="logo-svg" src="/STP-12939/assets/logo-BKN40oEB.svg" alt="logo"
-    /></a>
-
-    <button type="button" class="burger-btn" data-action="open">
-      <svg class="icon-burgermenu">
-        <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-burger-menu"></use>
-      </svg>
-    </button>
-
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link" href="#top">Home</a>
+    <header class="page">
+  <div class="container page-container">
+    <nav class="page-menu">
+      <a class="logo page-logo" href="./index.html">
+        <svg class="logo-icon" width="144" height="60">
+          <use href="../img/logo.svg"></use>
+        </svg>
+      </a>
+      <ul class="menu-list">
+        <li class="menu-list-item">
+          <a class="menu-list-link" href="#top">Home</a>
         </li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item">
-          <a class="nav-link" href="#play">How to Play</a>
+        <li class="menu-list-item">
+          <a class="menu-list-link" href="#about">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#features">Features</a>
+        <li class="menu-list-item">
+          <a class="menu-list-link" href="#play">How to Play</a>
         </li>
-        <li class="nav-item"><a class="nav-link" href="#faq">Faq</a></li>
+        <li class="menu-list-item">
+          <a class="menu-list-link" href="#features">Features</a>
+        </li>
+        <li class="menu-list-item">
+          <a class="menu-list-link" href="#faq">FAQ</a>
+        </li>
       </ul>
-    </nav>
-
-    <nav class="mobile-nav-menu" data-visible="close">
-      <button type="button" class="btn-close" data-action="close">
-        <svg class="icon-close">
-          <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-btn-close"></use>
+      <button class="burger-btn" type="button" data-action="open">
+        <svg class="burger-icon" width="44" height="44">
+          <use href="../img/sprite.svg#icon-burger-icon"></use>
         </svg>
       </button>
-
-      <ul class="mobile-nav">
-        <li class="mobile-nav-item">
-          <a class="mobile-nav-link" href="#top">Home</a>
-        </li>
-        <li class="mobile-nav-item">
-          <a class="mobile-nav-link" href="#about">About</a>
-        </li>
-        <li class="mobile-nav-item">
-          <a class="mobile-nav-link" href="#play">How to Play</a>
-        </li>
-        <li class="mobile-nav-item">
-          <a class="mobile-nav-link" href="#features">Features</a>
-        </li>
-        <li class="mobile-nav-item">
-          <a class="mobile-nav-link" href="#faq">Faq</a>
-        </li>
-      </ul>
     </nav>
+
+    <div class="mobile-menu" data-visible>
+      <div class="mobile-menu-container">
+        <button class="mobile-menu-close" type="button" data-action="close">
+          <svg class="mobile-close-icon" width="16" height="16">
+            <use href="../img/sprite.svg#icon-btn-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-item" data-nav-item>
+              <a class="mobile-nav-link" href="#top">Home</a>
+            </li>
+            <li class="mobile-nav-item" data-nav-item>
+              <a class="mobile-nav-link" href="#about">About</a>
+            </li>
+            <li class="mobile-nav-item" data-nav-item>
+              <a class="mobile-nav-link" href="#play">How to Play</a>
+            </li>
+            <li class="mobile-nav-item" data-nav-item>
+              <a class="mobile-nav-link" href="#features">Features</a>
+            </li>
+            <li class="mobile-nav-item" data-nav-item>
+              <a class="mobile-nav-link" href="#faq">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </div>
+
+  <!-- mobile menu -->
 </header>
-<div class="overlay" data-overvisible="close"></div>
 
 
     <main>
@@ -110,9 +118,7 @@
           Puzzle games that won't stress you out - perfect for when you need to
           focus but stay chill.
         </p>
-        <blockquote class="hero-content-quote">
-          Peace begins with every movement
-        </blockquote>
+        <p class="hero-content-quote">Peace begins with every movement</p>
       </div>
       <a
         class="hero-content-link btn"
@@ -120,14 +126,14 @@
         target="_blank"
       >
         <svg class="btn-icon" width="35" height="40">
-          <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#Playstore"></use>
+          <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#Playstore"></use>
         </svg>
         <span class="btn-text">
           <svg class="btn-text-getiton" width="124" height="16">
-            <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-Subtext"></use>
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-Subtext"></use>
           </svg>
           <svg class="btn-text-google" width="124" height="25">
-            <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-path90"></use>
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-path90"></use>
           </svg>
         </span>
       </a>
@@ -182,11 +188,60 @@
         />
         <img class="play-image" src="/STP-12939/assets/lotos-CkMgBQ4Z.jpg" alt="lotos image" />
       </picture>
-      <div data-box="swiper">
-        <ul class="play-steps" data-wrap="swiper-wrap">
-          <li class="play-items" data-slide="swiper-slide">
+      <ul class="play-steps">
+        <li class="play-items">
+          <svg class="play-items-icon" width="42" height="42">
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-step1"></use>
+          </svg>
+          <h3 class="play-items-title">
+            <span>Guide</span> <span>the Droplet</span>
+          </h3>
+          <p class="play-items-text">
+            Move through levels using smooth directional controls.
+          </p>
+        </li>
+        <li class="play-items">
+          <svg class="play-items-icon" width="42" height="42">
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-step2"></use>
+          </svg>
+          <h3 class="play-items-title">Solve Environmental Puzzles</h3>
+          <p class="play-items-text">
+            Maps obstacles and interactive elements carefully.
+          </p>
+        </li>
+        <li class="play-items">
+          <svg class="play-items-icon" width="42" height="42">
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-step3"></use>
+          </svg>
+          <h3 class="play-items-title">Discover New Challenges</h3>
+          <p class="play-items-text">
+            Each stage introduces fresh mechanics gradually.
+          </p>
+        </li>
+        <li class="play-items">
+          <svg class="play-items-icon" width="42" height="42">
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-step4"></use>
+          </svg>
+          <h3 class="play-items-title">Complete Calm Puzzle Paths</h3>
+          <p class="play-items-text">
+            Find efficient routes through minimalist environments.
+          </p>
+        </li>
+        <li class="play-items">
+          <svg class="play-items-icon" width="42" height="42">
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-step5"></use>
+          </svg>
+          <h3 class="play-items-title">Progress Through Zen Worlds</h3>
+          <p class="play-items-text">
+            Unlock new atmospheric visual themes over time.
+          </p>
+        </li>
+      </ul>
+      <div class="swiper" data-box="swiper-steps">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
-              <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-step1"></use>
+              <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-step1"></use>
             </svg>
             <h3 class="play-items-title">
               <span>Guide</span> <span>the Droplet</span>
@@ -194,44 +249,44 @@
             <p class="play-items-text">
               Move through levels using smooth directional controls.
             </p>
-          </li>
-          <li class="play-items" data-slide="swiper-slide">
+          </div>
+          <div class="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
-              <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-step2"></use>
+              <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-step2"></use>
             </svg>
             <h3 class="play-items-title">Solve Environmental Puzzles</h3>
             <p class="play-items-text">
               Maps obstacles and interactive elements carefully.
             </p>
-          </li>
-          <li class="play-items" data-slide="swiper-slide">
+          </div>
+          <div class="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
-              <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-step3"></use>
+              <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-step3"></use>
             </svg>
             <h3 class="play-items-title">Discover New Challenges</h3>
             <p class="play-items-text">
               Each stage introduces fresh mechanics gradually.
             </p>
-          </li>
-          <li class="play-items" data-slide="swiper-slide">
+          </div>
+          <div class="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
-              <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-step4"></use>
+              <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-step4"></use>
             </svg>
             <h3 class="play-items-title">Complete Calm Puzzle Paths</h3>
             <p class="play-items-text">
               Find efficient routes through minimalist environments.
             </p>
-          </li>
-          <li class="play-items" data-slide="swiper-slide">
+          </div>
+          <div class="swiper-slide">
             <svg class="play-items-icon" width="42" height="42">
-              <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-step5"></use>
+              <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-step5"></use>
             </svg>
             <h3 class="play-items-title">Progress Through Zen Worlds</h3>
             <p class="play-items-text">
               Unlock new atmospheric visual themes over time.
             </p>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -241,11 +296,62 @@
   <div class="features-container container">
     <h2 class="features-title">Features</h2>
     <p class="features-quote">Built to help you zone out and relax</p>
-    <div class="features-swiper" data-box="swiper">
-      <ul class="features-list" data-wrap="swiper-wrap">
-        <li class="features-card" data-slide="swiper-slide">
+    <ul class="features-list">
+      <li class="features-card">
+        <svg class="features-card-icon" width="42px" height="42px">
+          <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-feature1"></use>
+        </svg>
+        <h3 class="features-card-title" id="features-card-title">
+          Minimalist Visual Design
+        </h3>
+        <p class="features-card-text">
+          Clean visuals help you focus without getting overwhelmed.
+        </p>
+      </li>
+      <li class="features-card">
+        <svg class="features-card-icon" width="42px" height="42px">
+          <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-feature2"></use>
+        </svg>
+        <h3 class="features-card-title">Relaxing Puzzle Progression</h3>
+        <p class="features-card-text">
+          The puzzles make you think, but they're never stressful.
+        </p>
+      </li>
+      <li class="features-card">
+        <svg class="features-card-icon" width="42px" height="42px">
+          <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-feature3"></use>
+        </svg>
+        <h3 class="features-card-title">Atmospheric Audio Experience</h3>
+        <p class="features-card-text">
+          Soft ambient sound enhances immersion and calmness.
+        </p>
+      </li>
+      <li class="features-card">
+        <svg class="features-card-icon" width="42px" height="42px">
+          <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-feature4"></use>
+        </svg>
+        <h3 class="features-card-title">Smooth Mobile Interaction</h3>
+        <p class="features-card-text">
+          Gameplay feels fluid and responsive on touch devices.
+        </p>
+      </li>
+      <li class="features-card">
+        <svg class="features-card-icon" width="42px" height="42px">
+          <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-feature5"></use>
+        </svg>
+        <h3 class="features-card-title">Meditative Gameplay Flow</h3>
+        <p class="features-card-text">
+          It's weird how focused yet relaxed you feel while playing.
+        </p>
+      </li>
+    </ul>
+    <div class="swiper" data-box="features">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide features-card">
           <svg class="features-card-icon" width="42px" height="42px">
-            <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-feature1"></use>
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-feature1"></use>
           </svg>
           <h3 class="features-card-title" id="features-card-title">
             Minimalist Visual Design
@@ -253,44 +359,44 @@
           <p class="features-card-text">
             Clean visuals help you focus without getting overwhelmed.
           </p>
-        </li>
-        <li class="features-card" data-slide="swiper-slide">
+        </div>
+        <div class="swiper-slide features-card">
           <svg class="features-card-icon" width="42px" height="42px">
-            <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-feature2"></use>
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-feature2"></use>
           </svg>
           <h3 class="features-card-title">Relaxing Puzzle Progression</h3>
           <p class="features-card-text">
             The puzzles make you think, but they're never stressful.
           </p>
-        </li>
-        <li class="features-card" data-slide="swiper-slide">
+        </div>
+        <div class="swiper-slide features-card">
           <svg class="features-card-icon" width="42px" height="42px">
-            <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-feature3"></use>
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-feature3"></use>
           </svg>
           <h3 class="features-card-title">Atmospheric Audio Experience</h3>
           <p class="features-card-text">
             Soft ambient sound enhances immersion and calmness.
           </p>
-        </li>
-        <li class="features-card" data-slide="swiper-slide">
+        </div>
+        <div class="swiper-slide features-card">
           <svg class="features-card-icon" width="42px" height="42px">
-            <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-feature4"></use>
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-feature4"></use>
           </svg>
           <h3 class="features-card-title">Smooth Mobile Interaction</h3>
           <p class="features-card-text">
             Gameplay feels fluid and responsive on touch devices.
           </p>
-        </li>
-        <li class="features-card" data-slide="swiper-slide">
+        </div>
+        <div class="swiper-slide features-card">
           <svg class="features-card-icon" width="42px" height="42px">
-            <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-feature5"></use>
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-feature5"></use>
           </svg>
           <h3 class="features-card-title">Meditative Gameplay Flow</h3>
           <p class="features-card-text">
             It's weird how focused yet relaxed you feel while playing.
           </p>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -304,7 +410,7 @@
         <button class="faq-btn ac-trigger">
           <span class="faq-question">Is Quell Zen difficult to learn?</span>
           <svg class="faq-icon" width="42px" height="42px">
-            <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#arrow"></use>
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#arrow"></use>
           </svg>
         </button>
         <div class="faq-answer ac-panel">
@@ -317,7 +423,7 @@
         <button class="faq-btn ac-trigger">
           <span class="faq-question">Does the game focus on relaxation?</span>
           <svg class="faq-icon" width="42px" height="42px">
-            <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#arrow"></use>
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#arrow"></use>
           </svg>
         </button>
         <div class="faq-answer ac-panel">
@@ -331,7 +437,7 @@
         <button class="faq-btn ac-trigger">
           <span class="faq-question">Are the puzzles fast-paced?</span>
           <svg class="faq-icon" width="42px" height="42px">
-            <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#arrow"></use>
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#arrow"></use>
           </svg>
         </button>
         <div class="faq-answer ac-panel">
@@ -346,7 +452,7 @@
             >What style should the landing page follow?</span
           >
           <svg class="faq-icon" width="42px" height="42px">
-            <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#arrow"></use>
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#arrow"></use>
           </svg>
         </button>
         <div class="faq-answer ac-panel">
@@ -361,7 +467,7 @@
             >Is the game suitable for short sessions?</span
           >
           <svg class="faq-icon" width="42px" height="42px">
-            <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#arrow"></use>
+            <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#arrow"></use>
           </svg>
         </button>
         <div class="faq-answer ac-panel">
@@ -381,7 +487,7 @@
       <p class="contact-text">Ready to enter a calmer puzzle experience?</p>
       <a class="contact-link" href="mailto:info@corequest.pro">
         <svg class="contact-link-svg" \>
-          <use href="/STP-12939/assets/sprite-CKzHiDaN.svg#icon-mail"></use>
+          <use href="/STP-12939/assets/sprite-DEmxsUbA.svg#icon-mail"></use>
         </svg>
         <span class="contact-link-text">info@corequest.pro</span>
       </a>
