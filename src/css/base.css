@@ -5,8 +5,10 @@
   --color-footer-bg: #8a8bb0;
 }
 
-html {
+html,
+body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -23,7 +25,7 @@ main {
   flex-grow: 1;
 }
 section {
-  scroll-margin-top: 80px; /* Замените 80px на реальную высоту вашего хедера */
+  scroll-margin-top: 80px;
 }
 main:has(.back-link) {
   text-align: center;
