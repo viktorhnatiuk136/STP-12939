@@ -1,8 +1,7 @@
 import Swiper from 'swiper';
 import 'swiper/css';
 
-const swiper = new Swiper('[data-box="swiper-steps"]', {
-  // Optional parameters
+const swiper = new Swiper('[data-box="features"]', {
   direction: 'horizontal',
   slidesPerView: 1.11708,
   loop: false,

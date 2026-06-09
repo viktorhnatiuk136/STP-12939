@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 24px;
+  padding-top: 104px;
   padding-bottom: 46px;
   position: relative;
   display: flex;
@@ -69,7 +69,6 @@
 .hero-content-quote {
   margin: 0;
   font-style: italic;
-  font-weight: 500;
   font-size: 18px;
   color: #5d1183;
 }
@@ -98,7 +97,7 @@
 
 @media screen and (min-width: 1440px) {
   .hero {
-    padding-top: 109px;
+    padding-top: 189px;
     padding-bottom: 109px;
   }
   .hero-container {

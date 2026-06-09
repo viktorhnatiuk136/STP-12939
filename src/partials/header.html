@@ -1,56 +1,64 @@
-<header class="header">
-  <div class="header-container container">
-    <a href="./index.html" class="logo"
-      ><img class="logo-svg" src="./img/logo.svg" alt="logo"
-    /></a>
-
-    <button type="button" class="burger-btn" data-action="open">
-      <svg class="icon-burgermenu">
-        <use href="{=$icon-burger-btn}"></use>
-      </svg>
-    </button>
-
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link" href="#top">Home</a>
+<header class="page">
+  <div class="container page-container">
+    <nav class="page-menu">
+      <a class="logo page-logo" href="./index.html">
+        <svg class="logo-icon" width="144" height="60">
+          <use href="../img/logo.svg"></use>
+        </svg>
+      </a>
+      <ul class="menu-list">
+        <li class="menu-list-item">
+          <a class="menu-list-link" href="#top">Home</a>
         </li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item">
-          <a class="nav-link" href="#play">How to Play</a>
+        <li class="menu-list-item">
+          <a class="menu-list-link" href="#about">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#features">Features</a>
+        <li class="menu-list-item">
+          <a class="menu-list-link" href="#play">How to Play</a>
         </li>
-        <li class="nav-item"><a class="nav-link" href="#faq">Faq</a></li>
+        <li class="menu-list-item">
+          <a class="menu-list-link" href="#features">Features</a>
+        </li>
+        <li class="menu-list-item">
+          <a class="menu-list-link" href="#faq">FAQ</a>
+        </li>
       </ul>
-    </nav>
-
-    <nav class="mobile-nav-menu" data-visible="close">
-      <button type="button" class="btn-close" data-action="close">
-        <svg class="icon-close">
-          <use href="{=$icon-close}"></use>
+      <button class="burger-btn" type="button" data-action="open">
+        <svg class="burger-icon" width="44" height="44">
+          <use href="../img/sprite.svg#icon-burger-icon"></use>
         </svg>
       </button>
-
-      <ul class="mobile-nav">
-        <li class="mobile-nav-item">
-          <a class="mobile-nav-link" href="#top">Home</a>
-        </li>
-        <li class="mobile-nav-item">
-          <a class="mobile-nav-link" href="#about">About</a>
-        </li>
-        <li class="mobile-nav-item">
-          <a class="mobile-nav-link" href="#play">How to Play</a>
-        </li>
-        <li class="mobile-nav-item">
-          <a class="mobile-nav-link" href="#features">Features</a>
-        </li>
-        <li class="mobile-nav-item">
-          <a class="mobile-nav-link" href="#faq">Faq</a>
-        </li>
-      </ul>
     </nav>
+
+    <div class="mobile-menu" data-visible>
+      <div class="mobile-menu-container">
+        <button class="mobile-menu-close" type="button" data-action="close">
+          <svg class="mobile-close-icon" width="16" height="16">
+            <use href="../img/sprite.svg#icon-btn-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-item" data-nav-item>
+              <a class="mobile-nav-link" href="#top">Home</a>
+            </li>
+            <li class="mobile-nav-item" data-nav-item>
+              <a class="mobile-nav-link" href="#about">About</a>
+            </li>
+            <li class="mobile-nav-item" data-nav-item>
+              <a class="mobile-nav-link" href="#play">How to Play</a>
+            </li>
+            <li class="mobile-nav-item" data-nav-item>
+              <a class="mobile-nav-link" href="#features">Features</a>
+            </li>
+            <li class="mobile-nav-item" data-nav-item>
+              <a class="mobile-nav-link" href="#faq">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </div>
+
+  <!-- mobile menu -->
 </header>
-<div class="overlay" data-overvisible="close"></div>
